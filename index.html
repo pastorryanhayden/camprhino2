@@ -1,6 +1,6 @@
 ---
 layout: default
-main_image: /uploads/header-image.jpg
+main_image:
 ---
 <div class=" page-wrapper home">
   <div class="reveal" id="exampleModal1" data-reveal>
@@ -21,9 +21,9 @@ main_image: /uploads/header-image.jpg
 </div><!--/header-->
 <div class="main-text">
   <div class="main-cta">
-  <a href="#"><img src="http://sitesforchurch.s3.amazonaws.com/cometocamp.png" alt="Come To Camp"/></a>
-  <a href="#"><img src="http://sitesforchurch.s3.amazonaws.com/becomeavolunteer.png" alt="Become A Volunteer"/></a>
-  <a href="#"><img src="http://sitesforchurch.s3.amazonaws.com/donatetothecamp.png" alt="Donate to The Camp"/></a>
+  <a href="#"><img src="http://sitesforchurch.s3.amazonaws.com/cometocamp.png" alt="Come To Camp" /></a>
+  <a href="#"><img src="http://sitesforchurch.s3.amazonaws.com/becomeavolunteer.png" alt="Become A Volunteer" /></a>
+  <a href="#"><img src="http://sitesforchurch.s3.amazonaws.com/donatetothecamp.png" alt="Donate to The Camp" /></a>
 </div><!--/main-cta-->
   <div class="editable">
   <h2>A week of camp can change your life.</h2>
@@ -32,7 +32,7 @@ main_image: /uploads/header-image.jpg
   <p>Counselors will get to spend the a season in South Africa ministering the gospel in a summer camp.  They will get to take part in and help in a South African church and will no doubt make memories that will last a lifetime.</p>
   </div>
   <div class="cta-buttons">
-  <a href="#" class="button hollow large"><i class="fa fa-child"></i> View Upcoming Camps</a><br>
+  <a href="#" class="button hollow large"><i class="fa fa-child"></i> View Upcoming Camps</a><br />
   <a href="#" class="button hollow large"><i class="fa fa-users"></i> Learn About Missions Counseling</a>
   </div><!--/cta-buttons-->
 
@@ -41,7 +41,7 @@ main_image: /uploads/header-image.jpg
   <div class="photos-inner" id="sqr-gallery">
     {% for item in site.photo_gallery %}
 
-        <div class="photo"><a href="#" data-featherlight="{{item.image_path}}"><img src="{{item.image_path}}" alt=""></a></div>
+        <div class="photo"><a href="#" data-featherlight="{{item.image_path}}"><img src="{{item.image_path}}" alt="" /></a></div>
 {% endfor %}      
   </div><!--/photos-inner-->
 </div><!--/photos-->
@@ -50,20 +50,20 @@ main_image: /uploads/header-image.jpg
   <p>Sign up for our newsletter to get the latest news and updates.</p>
   <div class="input-group">
   <span class="input-group-label"> <i class="fa fa-envelope"></i> </span>
-  <input class="input-group-field" type="email" placeholder="Enter email address">
+  <input class="input-group-field" type="email" placeholder="Enter email address" />
   <div class="input-group-button">
-    <input type="submit" class="button" value="Subscribe">
+    <input type="submit" class="button" value="Subscribe" />
   </div><!--/input group button-->
 </div><!--/input group-->
 
 </div><!--/newsletter-->
 <div class="footer">
   <div class="button-links">
-    <a href="#"><img src="http://sitesforchurch.s3.amazonaws.com/vision.jpg" alt="Vision Baptist Missions"/></a>
-    <a href="#"><img src="http://sitesforchurch.s3.amazonaws.com/psa.jpg" alt="Project South Africa"/></a>
+    <a href="#"><img src="http://sitesforchurch.s3.amazonaws.com/vision.jpg" alt="Vision Baptist Missions" /></a>
+    <a href="#"><img src="http://sitesforchurch.s3.amazonaws.com/psa.jpg" alt="Project South Africa" /></a>
   </div><!--/button-links-->
   <div class="social-links">
-    <a href="#"> <img src="http://sitesforchurch.s3.amazonaws.com/Facebook-1.png"/></a>
+    <a href="#"> <img src="http://sitesforchurch.s3.amazonaws.com/Facebook-1.png" /></a>
     <a href="#"> <img src="http://sitesforchurch.s3.amazonaws.com/Twitter-1.png" /> </a>
     <a href="#"> <img src="http://sitesforchurch.s3.amazonaws.com/Instagram.png" /> </a>
   </div><!--/social-buittons-->
