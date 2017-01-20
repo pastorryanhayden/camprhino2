@@ -2,8 +2,11 @@
 layout: default
 body_class: donate
 header_image: /uploads/homeback.jpg
-extra_script_tags:
-extra_scripts: 
+extra_script_tags: |
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/modules/exporting.js"></script>
+  <script src="donatechart.js"></script>
+extra_scripts:
 ---
 
 
@@ -17,8 +20,10 @@ extra_scripts:
   </div><!--header-content-->
   </div><!--/header-->
 <div class="page-content">
-<div class="main-text">
+<div class="main-text editable">
+  <div id="container" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
    <h2>We are trying to raise $100,000 in one year so we can buy property for Camp Rhino.</h2>
+   <a href="#" class="button hollow large"><i class="fa fa-paypal"></i> Donate Today</a>
   <p>Have you had your life touched by attending Christian summer camp?  Have you sent teenagers to camp and had them come back with their lives changed?  Have you have kids get saved at camp?
 </p>
   <p><strong>Children and Teens in South Africa need a Bible Preaching Christian Camp!</strong>  Not only do they live in abject poverty, most of them experience a level of immorality, drunkenness, and demonic activity that few American kids ever experience.  Imagine the impact a week of Christian camp could have on their life.  <em>If Christian Camp helps American churches, imagine how much it could do to help missionaries and native South African churches.</em></p>
@@ -31,3 +36,4 @@ extra_scripts:
 {% include photos.html %}
 {% include newsletter.html %}
 </div><!--/page-content-->
+

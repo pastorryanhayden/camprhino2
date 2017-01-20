@@ -1,0 +1,28 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  {% include head.html%}
+  <body class="post">
+  <nav id="menu">
+      {% include menu.html %}
+  </nav>
+  <main id="panel">
+  <div class="header" style="background: url({{page.header_image}}) no-repeat top left; background-size: cover;">
+  {% include navigation.html %}
+  <div class="header-content">
+  <div class="main-heading">
+      <p class="editable">An exciting and affordable camp where South African youth can learn about Jesus.</p>
+      <a href="#"><img src="http://sitesforchurch.s3.amazonaws.com/Play-1.png" /></a>
+  </div><!--/main-heading-->
+  </div><!--header-content-->
+  </div><!--/header-->
+<div class="page-content">
+<div class="main-text">
+          {{ content }}
+</div><!--/main-text-->
+{% include photos.html %}
+{% include newsletter.html %}
+</div><!--/page-content-->
+      {% include footer.html%}
+  </main>
+  </body>
+</html>

@@ -11,6 +11,7 @@ GEM
       public_suffix (~> 2.0, >= 2.0.2)
     airtable (0.0.9)
       httparty
+    bigdecimal (1.2.6)
     colorator (1.1.0)
     ffi (1.9.14)
     forwardable-extended (2.6.0)
@@ -64,8 +65,10 @@ PLATFORMS
 DEPENDENCIES
   activesupport
   airtable
+  bigdecimal
   jekyll (= 3.3.0)
   jekyll-feed (~> 0.6)
+  json
   minima (~> 2.0)
 
 BUNDLED WITH
