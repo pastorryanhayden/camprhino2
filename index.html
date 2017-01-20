@@ -1,29 +1,31 @@
 ---
 layout: default
-main_image: /uploads/header-image.jpg
+body_class: home
+header_image: /uploads/homeback.jpg
+extra_script_tags:
+extra_scripts: |
+    $(document).foundation();
+    $('#exampleModal1').foundation('open');
 ---
-<div class=" page-wrapper home">
-  <div class="reveal" id="exampleModal1" data-reveal>
-  <h1>We are still setting up camp.</h1>
-  <p class="lead">This website (like our camp) is still in the early stages.  As a result, many buttons and links don't work. Feel free to look around and check back soon to see our progress.</p>
-  <a href="#" class="button" data-close>Check Out the Site</a>
-  <button class="close-button" data-close aria-label="Close modal" type="button">
-    <span aria-hidden="true">&times;</span>
-  </button>
-</div><!--/reveal-->
-<div class="header">
- {% include navigation.html %}
+
+  {% include homeModal.html %}
+
+
+  <div class="header" style="background: url({{page.header_image}}) no-repeat top left; background-size: cover;">
+  {% include navigation.html %}
+  <div class="header-content">
   <div class="main-heading">
       <p class="editable">An exciting and affordable camp where South African youth can learn about Jesus.</p>
       <a href="#"><img src="http://sitesforchurch.s3.amazonaws.com/Play-1.png" /></a>
   </div><!--/main-heading-->
-
-</div><!--/header-->
+  </div><!--header-content-->
+  </div><!--/header-->
+<div class="page-content">
 <div class="main-text">
   <div class="main-cta">
-  <a href="#"><img src="http://sitesforchurch.s3.amazonaws.com/cometocamp.png" alt="Come To Camp"/></a>
-  <a href="#"><img src="http://sitesforchurch.s3.amazonaws.com/becomeavolunteer.png" alt="Become A Volunteer"/></a>
-  <a href="#"><img src="http://sitesforchurch.s3.amazonaws.com/donatetothecamp.png" alt="Donate to The Camp"/></a>
+  <a href="#"><img src="http://sitesforchurch.s3.amazonaws.com/cometocamp.png" alt="Come To Camp" /></a>
+  <a href="#"><img src="http://sitesforchurch.s3.amazonaws.com/becomeavolunteer.png" alt="Become A Volunteer" /></a>
+  <a href="donate.html"><img src="http://sitesforchurch.s3.amazonaws.com/donatetothecamp.png" alt="Donate to The Camp" /></a>
 </div><!--/main-cta-->
   <div class="editable">
   <h2>A week of camp can change your life.</h2>
@@ -32,43 +34,11 @@ main_image: /uploads/header-image.jpg
   <p>Counselors will get to spend the a season in South Africa ministering the gospel in a summer camp.  They will get to take part in and help in a South African church and will no doubt make memories that will last a lifetime.</p>
   </div>
   <div class="cta-buttons">
-  <a href="#" class="button hollow large"><i class="fa fa-child"></i> View Upcoming Camps</a><br>
+  <a href="#" class="button hollow large"><i class="fa fa-child"></i> View Upcoming Camps</a><br />
   <a href="#" class="button hollow large"><i class="fa fa-users"></i> Learn About Missions Counseling</a>
   </div><!--/cta-buttons-->
 
 </div><!--/main-text-->
-<div class="photos">
-  <div class="photos-inner" id="sqr-gallery">
-    {% for item in site.photo_gallery %}
-
-        <div class="photo"><a href="#" data-featherlight="{{item.image_path}}"><img src="{{item.image_path}}" alt=""></a></div>
-{% endfor %}      
-  </div><!--/photos-inner-->
-</div><!--/photos-->
-<div class="newsletter editable">
-  <h2>Stay Tuned</h2>
-  <p>Sign up for our newsletter to get the latest news and updates.</p>
-  <div class="input-group">
-  <span class="input-group-label"> <i class="fa fa-envelope"></i> </span>
-  <input class="input-group-field" type="email" placeholder="Enter email address">
-  <div class="input-group-button">
-    <input type="submit" class="button" value="Subscribe">
-  </div><!--/input group button-->
-</div><!--/input group-->
-
-</div><!--/newsletter-->
-<div class="footer">
-  <div class="button-links">
-    <a href="#"><img src="http://sitesforchurch.s3.amazonaws.com/vision.jpg" alt="Vision Baptist Missions"/></a>
-    <a href="#"><img src="http://sitesforchurch.s3.amazonaws.com/psa.jpg" alt="Project South Africa"/></a>
-  </div><!--/button-links-->
-  <div class="social-links">
-    <a href="#"> <img src="http://sitesforchurch.s3.amazonaws.com/Facebook-1.png"/></a>
-    <a href="#"> <img src="http://sitesforchurch.s3.amazonaws.com/Twitter-1.png" /> </a>
-    <a href="#"> <img src="http://sitesforchurch.s3.amazonaws.com/Instagram.png" /> </a>
-  </div><!--/social-buittons-->
-  <div class="footer-text">
-    <p>&copy;<a href="http://myonepage.site">MyOnePage.Site</a>.  All Rights Reserved.</p>
-  </div><!--/footer-text-->
-</div><!--/footer-->
-</div><!--/home-->
+{% include photos.html %}
+{% include newsletter.html %}
+</div><!--/page-content-->

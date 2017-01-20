@@ -1,0 +1,97 @@
+.header 
+    min-height: 830px
+    +breakpoint(medium)
+        min-height: 760px
+    // height: 60vh
+    background-color: $main_light_color
+    background-size: cover 
+    position: relative
+    top: 0
+    left: 0 
+    .socialbar
+        position: absolute 
+        top: 35px
+        right: 35px
+        display: flex 
+        width: 112px
+        justify-content: space-between
+        list-style-type: none 
+        li 
+            padding-left: none
+            a 
+                span 
+                    i:first-child
+                        color: $main_dark_color 
+
+
+    .menu
+        position: absolute
+        top: 0
+        display: flex 
+        justify-content: space-between
+        width: 100%
+        background: url('http://sitesforchurch.s3.amazonaws.com/menu-1.png') repeat-x top left 
+        a.logo
+            margin-left: 20px
+            +breakpoint(medium)
+                margin-left: 73px
+            margin-top: 10px
+        div.right
+            margin-right: 20px
+            +breakpoint(medium)
+                margin-right: 73px
+            margin-top: 113px
+            height: 47px
+            display: flex 
+            justify-content: space-between
+            font-size: 20px 
+            text-transform: uppercase
+            a.button 
+                font-size: 20px 
+                font-weight: bold
+                padding-top: 0
+                padding-bottom: 0
+                line-height: 47px 
+                border-radius: 20px
+                width: 162px
+                height: 47px
+                color: $main_dark_color
+                margin-right: 30px
+                display: none
+                +breakpoint(medium)
+                    display: block
+            a.toggle-button
+                color: $main_light_color
+                line-height:  47px
+
+.home .header
+    width: 100%
+    background: url(http://sitesforchurch.s3.amazonaws.com/header-background1.jpg) no-repeat top center
+    background-size: cover
+    z-index: 1
+    .header-content
+        display: flex
+        position: absolute
+        top: 280px
+        width: 100%
+        justify-content: center
+
+        .main-heading
+            max-width: 690px
+            width: 80%
+            min-height: 205px
+            margin-left: auto
+            margin-right: auto
+            margin-bottom: 50px
+            background: rgba($main_dark_color, 0.7)
+            text-align: center
+            padding: 20px
+    
+            p
+                color: $main_light_color
+                font-size: 30px
+                line-height: 40px
+                font-weight: bold
+                margin-bottom: 30px
+
+    

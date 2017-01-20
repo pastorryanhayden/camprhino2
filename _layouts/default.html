@@ -1,100 +1,13 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{site.data.settings.name}}</title>
-    <link href="//cdn.rawgit.com/noelboss/featherlight/1.5.0/release/featherlight.min.css" type="text/css" rel="stylesheet" />
-    <link rel="stylesheet" href="{{site.url}}/new.css">
-    <script src="https://use.fontawesome.com/00d641a760.js"></script>
-  </head>
-  <body class="secondary-page {{page.class}}">
-  
-    <div class="off-canvas-wrapper">
-    <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
-    <!-- Start Mobile Menu-->
-    <div class="off-canvas position-right" id="offCanvas" data-off-canvas data-position="right">
-    <ul class="vertical menu" data-accordion-menu>
-      <li><a href="#">Get To Camp</a>
-        <ul class="menu vertical nested">
-          <li><a href="#">Upcoming Camps</a></li>
-          <li><a href="#">What You Need To Know</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Get Informed</a>
-       <ul class="menu vertical nested">
-          <li><a href="#">Recent Updates</a></li>
-          <li><a href="#">About Our Camp</a></li>
-          <li><a href="#">Our Leadership</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Get Involved</a>
-       <ul class="menu vertical nested">
-          <li><a href="#">Become a Counselor</a></li>
-          <li><a href="#">Sponsor a Camper</a></li>
-          <li><a href="#">Plan A Missions Trip</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Get In Touch</a></li>
-    </ul>
-    
-    </div><!--/off-canvas position-right-->
-    <!--/ End Mobile Menu-->
-        {{ content }}
-</div><!--/off-canvas-wrapper-inner-->
-    </div><!--/off-canvas-wrapper-->
-
-
-          <script src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-    <script src="//cdn.rawgit.com/noelboss/featherlight/1.5.0/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/0.1.12/slideout.min.js"></script>
-    <script src="assets/js/app.js"></script>
-    <script>
-    $(document).ready(function(){
-        $('.testimonials-wrapper').slick({
-          dots: false,
-          infinite: true,
-          speed: 300,
-          slidesToShow: 1,
-          adaptiveHeight: true
-        });
-      $('.photos-inner').slick({
-  infinite: false,
-  speed: 300,
-  slidesToShow: 5,
-  slidesToScroll: 5,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 4,
-        slidesToScroll: 4,
-        infinite: true,
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-  });
-        });
-     
-    </script>
+  {% include head.html%}
+  <body class="{{page.body_class}}">
+  <nav id="menu">
+      {% include menu.html %}
+  </nav>
+  <main id="panel">
+          {{ content }}
+      {% include footer.html%}
+  </main>
   </body>
 </html>

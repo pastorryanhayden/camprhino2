@@ -5,7 +5,9 @@
 @charset 'utf-8';
 
 {{main_font_import_code}}
+{% if site.data.design_settings.secondary_font %}
 {{secondary_font_import_code}}
+{% endif %}
 
 
 $main_dark_color: {{site.data.design_settings.main_dark_color}};
@@ -13,7 +15,7 @@ $main_light_color: {{site.data.design_settings.main_light_color}};
 $main_bright_color: {{site.data.design_settings.main_bright_color}};
 $secondary_bright_color: {{site.data.design_settings.secondary_bright_color}};
 $main_font: {{site.data.design_settings.main_font}};
-$secondary_font: {{site.data.design_settings.secondary_font}};
+$secondary_font: {% if site.data.design_settings.secondary_font %}{{site.data.design_settings.secondary_font}} {% else %} {{site.data.design_settings.main_font}} {% endif %};
 $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
@@ -88,16 +90,16 @@ $header-font-style: normal;
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-@import "components/slick";  
-@import "components/slick-theme";  
-@import 'components/layout';
-@import 'components/navigation';
-@import 'components/home';
-@import 'components/mainCTA';
-@import 'components/mainText';
-@import 'components/newsletter';
-@import 'components/footer';
-@import "components/gallery"; 
-@import "components/modal"; 
-@import "components/donate"; 
-
+@import "vendors/slideout";  
+@import "vendors/slick";  
+@import "vendors/slick-theme";  
+@import "components/main";  
+@import "components/header";
+@import "components/menu";
+@import "components/mainCTA";
+@import "components/homeText";
+@import "components/newsletter";
+@import "components/footer";
+@import "components/modal";
+@import "components/gallery";
+@import "components/donate";
