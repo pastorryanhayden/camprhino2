@@ -20,7 +20,7 @@ $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: $main_bright_color,
+  primary: darken($main_bright_color, 10%),
   secondary: $main_dark_color,
   success: $main_bright_color,
   warning: $secondary_bright_color,
@@ -103,3 +103,4 @@ $header-font-style: normal;
 @import "components/modal";
 @import "components/gallery";
 @import "components/donate";
+@import "components/post";

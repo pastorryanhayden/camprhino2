@@ -9,7 +9,7 @@
     Highcharts.theme = {
     colors: ['{{site.data.design_settings.main_bright_color}}', '{{site.data.design_settings.main_light_color}}'],
     chart: {
-        backgroundColor: '#6D5232'
+        backgroundColor: '{{site.data.design_settings.main_dark_color}}'
     },
     title: {
         style: {
