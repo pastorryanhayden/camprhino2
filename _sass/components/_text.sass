@@ -5,24 +5,46 @@ div.main-text
     text-align: center
     padding-bottom: 150px
 
-    h2, p
+    h1, h2, h3,  p, ul, ol, blockquote 
         width: 80%
         margin-left: auto
         margin-right: auto
         max-width: 900px
 
-    h2
+    h1
         font-size: 32px
         line-height: 43px
-        color: darken($main_bright_color, 10%)
+        color: darken($main_bright_color, 20%)
         font-weight: bold
         margin-bottom: 70px
+        text-align: left 
+    h2
+        font-size: 26px
+        line-height: 43px
+        color: darken($main_bright_color, 20%)
+        font-weight: bold
+        margin-bottom: 55px
+        text-align: left 
+    h3
+        font-size: 24px
+        line-height: 43px
+        color: darken($main_bright_color, 20%)
+        font-weight: bold
+        margin-bottom: 40px
+        text-align: left 
 
-    p
+    p, li 
         font-size: 22px
         line-height: 30px
         color: $main_dark_color
         margin-bottom: 30px
+        text-align: justify
+
+    li 
+        text-align: left
+        margin-left: 100px  
+
+
 
     .cta-buttons
         margin-top: 60px
@@ -30,6 +52,7 @@ div.main-text
     a.button.hollow.large
         border-radius: 8px
         border-width: 2px
+        margin-top: 30px
 
         &:hover
             background: $main_light_color

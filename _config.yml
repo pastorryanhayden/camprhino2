@@ -31,21 +31,6 @@ keep_files:
 
 
 
-#Collections stuff:
-
-collections:
-  leaders:
-    output: true
-  photo_gallery:
-    output: false
-    _hide_content: true
-  beliefs:
-    output: false
-  testimonials:
-    output: false
-    _hide_content: true
-
-
 author:
 - Mark Coffee
 
