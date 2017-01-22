@@ -6,6 +6,7 @@ categories:
   - Fundraising
 featured_image:
 author:
+  - Mark Coffey
 ---
 
 
@@ -15,8 +16,8 @@ Already in January we were informed that $5200 is in the mail, another church se
 
 ![](/uploads/versions/goal2---x----720-960x---.jpg)
 
-Part of the $1750 came from a Preacher’s Conference I was able to attend this past week in Rossville, GA at Anchor of Hope Baptist Church with Pastor Brian Haney. &nbsp; Pastors, missionaries, laymen, and other preachers gave sacrificially toward the camp. &nbsp;I was blown away by their generosity.
+Part of the $1750 came from a Preacher’s Conference I was able to attend this past week in Rossville, GA at Anchor of Hope Baptist Church with Pastor Brian Haney.   Pastors, missionaries, laymen, and other preachers gave sacrificially toward the camp.  I was blown away by their generosity.
 
 ![](/uploads/versions/goal1---x----720-960x---.jpg)
 
-As we travel to churches, we are giving a free Camp Rhino T-shirts to everyone who gives a donation to the camp. &nbsp;Soon we will make these shirts available online. &nbsp;If you’re interested in donating and having your own Camp Rhino T-shirt, just let me know.
+As we travel to churches, we are giving a free Camp Rhino T-shirts to everyone who gives a donation to the camp.  Soon we will make these shirts available online.  If you’re interested in donating and having your own Camp Rhino T-shirt, just let me know.
