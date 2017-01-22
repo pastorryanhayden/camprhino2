@@ -4,7 +4,7 @@ title: 'January Goal Exceeded!'
 date: 2017-01-11 00:35:00
 categories:
   - Fundraising
-featured_image:
+featured_image: /uploads/january.jpg
 author:
   - Mark Coffey
 ---
