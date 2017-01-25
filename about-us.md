@@ -1,13 +1,12 @@
 ---
 title: About Us
 layout: page
-featured_image: 
-summary: >
-    Who we are and what we are trying to do.
+featured_image:
+summary: |
+  Who we are and what we are trying to do.
 ---
 
-Vestibulum id ligula porta felis euismod semper. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum. Vestibulum id ligula porta felis euismod semper.
 
-Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero, a pharetra augue.
+We are a team of missionaries who have voluntarily joined ourselves together to labor together seeing churches planted in South Africa through the training of leaders. There is room for you and much work to do! Will you consider being the next to change your address for the sake of the Gospel?
 
-Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vestibulum id ligula porta felis euismod semper. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec sed odio dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+Camp Rhino is focused on seeing young people saved and mentored in the things of God with the purpose of helping them grow as they minister in their local church.
