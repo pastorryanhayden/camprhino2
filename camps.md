@@ -14,10 +14,14 @@ summary: Find out how to go to Camp at Camp Rhino.
 
 ### &nbsp;
 
-### Oct 8-12 Children's Camp Oct 15-19 Teen Camp
+### Oct 8-12 Children's Camp
+
+### Oct 15-19 Teen Camp
 
 ### &nbsp;
 
-### Dec 3-7 Children's Camp Dec 10-14 Junior High Camp
+### Dec 3-7 Children's Camp
+
+### Dec 10-14 Junior High Camp
 
 ### Dec 31-Jan 4 Senior High Camp
