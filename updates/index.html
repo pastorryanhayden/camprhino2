@@ -13,11 +13,11 @@
 
   <p class="breadcrumbs"><a href="{{site.url}}">Home</a> <i class="fa fa-arrow-circle-right"></i> Updates </p><!--/breadcrumbs-->
 
-  
+
   </div><!--/header-->
 <div class="page-content">
 <div class="main-text">
- 
+
  <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
@@ -43,7 +43,7 @@
     <span class="next ">Next</span>
   {% endif %}
 </div>
- 
+
 </div><!--/main-text-->
 </div><!--/page-content-->
 {% include photos.html %}
