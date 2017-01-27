@@ -3,7 +3,7 @@ title: An Investment in Eternity
 layout: donate
 summary: Help us buy property for Camp Rhino.
 body_class: donate
-featured_image:
+featured_image: /uploads/5.jpg
 extra_script_tags:
 extra_scripts:
 ---
