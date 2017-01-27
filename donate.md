@@ -3,11 +3,8 @@ title: An Investment in Eternity
 layout: donate
 summary: Help us buy property for Camp Rhino.
 body_class: donate
-featured_image: /uploads/5.jpg
-extra_script_tags: |
-  <script src="https://code.highcharts.com/highcharts.js"></script>
-  <script src="https://code.highcharts.com/modules/exporting.js"></script>
-  <script src="donatechart.js"></script>
+featured_image:
+extra_script_tags:
 extra_scripts:
 ---
 
