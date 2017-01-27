@@ -8,6 +8,8 @@ extra_script_tags:
 extra_scripts:
 ---
 
+<a href="{{site.data.fundraising.paypal_donate_link}}" class="button hollow large"><i class="fa fa-paypal"></i> Donate Today</a>
+
 ## We are trying to raise $100,000 in one year so we can buy property for Camp Rhino.
 
 Have you had your life touched by attending Christian summer camp?  Have you sent teenagers to camp and had them come back with their lives changed?  Have you have kids get saved at camp?
