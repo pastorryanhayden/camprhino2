@@ -1,4 +1,4 @@
-name: Camp Rhino - Port Elizabeth, South Africa
+name: 'Camp Rhino - Port Elizabeth, South Africa'
 logo_image_path: /uploads/logo.png
 logo2_image_path: /uploads/logo2.png
 main_image: /uploads/header-image.jpg
@@ -10,8 +10,8 @@ youtube:
 instagram:
 address: 6732 N. 1075th St.
 address2:
-mission_board_image: http://sitesforchurch.s3.amazonaws.com/vision.jpg
-project_south_africa_image: http://sitesforchurch.s3.amazonaws.com/psa.jpg
+mission_board_image: 'http://sitesforchurch.s3.amazonaws.com/vision.jpg'
+project_south_africa_image: /uploads/psa.jpg
 City: Robinson
 State: IL
 Zip: '62454'
