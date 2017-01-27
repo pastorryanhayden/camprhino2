@@ -11,11 +11,13 @@ body.post
         top: 245px
         text-align: center
         width: 100%
+        margin-bottom: 40px
         +breakpoint(890px)
             top: 208px
             right: 80px
             text-align: right
             max-width: 800px
+            margin-bottom: inherit
         color: $main_dark_color
         font-size: 20px
         font-weight: bold
@@ -88,6 +90,9 @@ body.post.list
         margin-right: auto
         max-width: 1100px
         display: flex
+        flex-direction: column
+        +breakpoint(medium)
+            flex-direction: row
         padding-bottom: 30px
         border-bottom: 2px dashed $main_dark_color
         margin-bottom: 30px
@@ -96,10 +101,19 @@ body.post.list
             margin-bottom: 0
 
         .featured_image
-            width: 384px
+            width: 80%
+            margin-left: auto
+            margin-right: auto
+            margin-bottom: 20px
+            +breakpoint(medium)
+                width: 384px
+                margin-left: 0
+                margin-right: 0
         .title
             h1
                 margin-bottom: 0
+                text-transform: uppercase
+                font-weight: bold
             .author
                 border-top: 2px solid $main_dark_color
                 border-bottom: 2px solid $main_dark_color
@@ -111,3 +125,57 @@ body.post.list
             width: 80%
             margin-left: auto
             margin-right: auto
+
+.latestPost
+    padding: 40px
+    border-bottom: 1px dashed $main_dark_color
+    h2
+        text-align: center
+        margin-bottom: 40px
+        font-size: 30px
+        line-height: 40px
+        font-weight: bold
+        color: #594323
+        text-transform: uppercase
+    .singlepost
+        display: flex
+        flex-direction: column
+        +breakpoint(medium)
+            flex-direction: row
+        margin-left: auto
+        margin-right: auto
+        width: 80%
+        max-width: 1200px
+        .featured_image
+            width: 80%
+            margin-left: auto
+            margin-right: auto
+            margin-bottom: 20px
+            +breakpoint(medium)
+                width: 512px
+                margin-left: 0
+                margin-right: 40px
+                flex-grow: 2
+            img
+                border: 2px solid $main_dark_color
+        .posttext
+            flex-shrink: 2
+        .title
+            h1
+                margin-bottom: 0
+                font-size: 28px
+                text-transform: uppercase
+                font-weight: bold
+            .author
+                border-top: 2px solid $main_dark_color
+                border-bottom: 2px solid $main_dark_color
+        .content
+            p
+                margin-bottom: 30px
+        .readbutton
+            text-align: right
+            // width: 80%
+            // margin-left: auto
+            // margin-right: auto
+.allposts
+    text-align: center

@@ -1,8 +1,8 @@
 {% assign settings = site.data.settings %}
 <div class="footer">
   <div class="button-links">
-    <a href="#"><img src="http://sitesforchurch.s3.amazonaws.com/vision.jpg" alt="Vision Baptist Missions" /></a>
-    <a href="#"><img src="http://sitesforchurch.s3.amazonaws.com/psa.jpg" alt="Project South Africa" /></a>
+    <a href="#"><img src="{{site.data.settings.mission_board_image}}" alt="Vision Baptist Missions" /></a>
+    <a href="#"><img src="{{site.data.settings.project_south_africa_image}}" alt="Project South Africa" /></a>
   </div><!--/button-links-->
   <div class="social-links">
     <a href="#"> <img src="http://sitesforchurch.s3.amazonaws.com/Facebook-1.png" /></a>
@@ -17,7 +17,7 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
     <script src="//cdn.rawgit.com/noelboss/featherlight/1.5.0/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/0.1.12/slideout.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/js/foundation.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/js/foundation.min.js"></script>
     {{page.extra_script_tags | raw }}
     <script>
       var slideout = new Slideout({
@@ -26,13 +26,13 @@
     'side': 'right',
     'padding': 334,
     'tolerance': 70
-    
+
   });
   document.querySelector('.toggle-button').addEventListener('click', function() {
   slideout.toggle();
 });
       $(document).ready(function(){
-      
+
     $('.photos-inner').slick({
   infinite: false,
   speed: 300,
