@@ -16,17 +16,26 @@
     <div class="connected-header">
         <h3>Get Connected</h3>
         <ul class="social-menu">
-            <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            {% if  site.data.settings.facebook %}
+            <li><a href="{{site.data.settings.facebook}}"><i class="fa fa-facebook-square"></i></a></li>
+            {% endif %}
+            {% if  site.data.settings.twitter %}
+            <li><a href="{{site.data.settings.twitter}}"><i class="fa fa-twitter-square"></i></a></li>
+            {% endif %}
+            {% if  site.data.settings.instagram %}
+            <li><a href="{{site.data.settings.instagram}}"><i class="fa fa-instagram"></i></a></li>
+            {% endif %}
+            {% if  site.data.settings.youtube %}
+            <li><a href="{{site.data.settings.youtube}}"><i class="fa fa-youtube"></i></a></li>
+            {% endif %}
         </ul><!--/social-menu-->
     </div><!--/connected-header-->
     <div class="details">
-        <p class="email">email@email.com</p>
-        <p class="address">Vision Baptist Mission <br>
-        123 Some Street <br>
-        Some Town, GA 12345</p>
-        <p class="phone">(123) 123-4567</p>
+        <p class="email">{{site.data.settings.email}}</p>
+        <p class="address">{{site.data.settings.address}}{% if site.data.settings.address2 %}<br> {{site.data.settings.address2}}
+{% endif %}<br>
+        {{site.data.settings.City}}, {{site.data.settings.State}} {{site.data.settings.Zip}}</p>
+        <p class="phone">{{site.data.settings.phone}}</p>
     </div><!--/details-->
     <div class="links">
         <a href="#"><img src="http://sitesforchurch.s3.amazonaws.com/psa-1.jpg" alt=""></a>
