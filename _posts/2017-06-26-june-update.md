@@ -1,7 +1,7 @@
 ---
 layout: post
 title: June Update
-date: 2017-01-11 00:35:00
+date: 2017-06-26 00:35:00
 categories:
 featured_image: /uploads/2016-camp.jpg
 author:
