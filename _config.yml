@@ -29,7 +29,7 @@ keep_files:
   - assets/css
   - assets/js
 collections:
-  - books
+  books:
     _hide_content: true
 
 
