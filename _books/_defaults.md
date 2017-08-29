@@ -1,8 +1,8 @@
 ---
 title: 
-author: 
+writer: 
 price: 
-description: 
+description_markdown: 
 image: 
 sendowl_link: 
 ---

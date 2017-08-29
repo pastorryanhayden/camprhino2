@@ -13,11 +13,11 @@ summary: Children's Books published by Camp Rhino.
             <img src="{{book.image}}" alt="">
         </a>
         <h4><a href="{{book.sendowl_link}}">{{book.title}}</a></h4>
-        <p class="author">{{book.author}}</p>
+        <p class="author">{{book.writer}}</p>
         <p class="price">{{book.price}}</p>
         <hr>
         <p class="description">
-            {{book.description | markdownify}}
+            {{book.description_markdown | markdownify}}
         </p>
         <a href="{{book.sendowl_link}}" class="button">Add To Cart</a>
     </div><!--book-->
