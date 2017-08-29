@@ -10,12 +10,12 @@ ruby RUBY_VERSION
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
-gem "jekyll", "3.3.0"
-gem "airtable"
-gem "activesupport"
-gem "bigdecimal"
+gem "jekyll", "3.3.1"
 gem "json"
-gem "jekyll-paginate"
+gem 'airtable'
+gem 'bigdecimal'
+gem 'activesupport'
+gem 'jekyll-paginate'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.

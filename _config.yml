@@ -28,6 +28,8 @@ keep_files:
   - css
   - assets/css
   - assets/js
+collections:
+  - books
 
 
 

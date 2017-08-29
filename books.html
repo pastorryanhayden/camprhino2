@@ -1,0 +1,25 @@
+---
+title: Camp Rhino Books
+layout: page
+summary: Children's Books published by Camp Rhino.
+---
+
+<p>Camp Rhino has started publishing children's books!  Below you'll find links to purchase each book we've published.</p>
+
+<div class="books"> 
+    {% for book in site.books %}   
+    <div class="book">
+        <a href="{{book.sendowl_link}}">
+            <img src="{{book.image}}" alt="">
+        </a>
+        <h4><a href="{{book.sendowl_link}}">{{book.title}}</a></h4>
+        <p class="author">{{book.author}}</p>
+        <p class="price">{{book.price}}</p>
+        <hr>
+        <p class="description">
+            {{book.description | markdownify}}
+        </p>
+        <a href="{{book.sendowl_link}}" class="button">Add To Cart</a>
+    </div><!--book-->
+    {% endfor %}
+</div><!--books-->
