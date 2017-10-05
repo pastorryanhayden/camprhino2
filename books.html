@@ -1,7 +1,5 @@
 ---
 title: Camp Rhino Books
-layout: page
-summary: Children's Books published by Camp Rhino.
 ---
 
 <!--<p>Camp Rhino has started publishing children's books!  Below you'll find links to purchase each book we've published.</p>-->
@@ -26,5 +24,29 @@ summary: Children's Books published by Camp Rhino.
 <!--    {% endfor %}-->
 <!--</div><!--books-->
 
+<!doctype html>
+<html class="no-js" lang="en">
+  {% include head.html%}
+  <body class="post page">
+  <nav id="menu">
+      {% include menu.html %}
+  </nav>
+  <main id="panel">
+  <div class="header" style="background: url({{page.header_image}}) no-repeat top left; background-size: cover;">
+  {% include navigation.html %}
+  </div><!--/header-->
+<div class="page-content">
+<div class="main-text">
+
 <script data-selz-s="markcoffey" data-selz-cb="2a6c1b" data-selz-cbt="ffffff" data-selz-cl="7959c7" data-selz-chbg="2a6c1b" data-selz-chtx="ffffff">if (typeof _$elz === "undefined") { var _$elz = {}; } if (typeof _$elz.s === "undefined") { _$elz.s = { e: document.createElement("script") }; _$elz.s.e.src = "https://selz.com/embed/store/markcoffey"; document.body.appendChild(_$elz.s.e); }</script>
 <noscript><a href="https://markcoffey.selz.com" target="_blank"></a></noscript>
+
+</div><!--/main-text-->
+</div><!--/page-content-->
+{% include photos.html %}
+{% include newsletter.html %}
+
+      {% include footer.html%}
+  </main>
+  </body>
+</html>
