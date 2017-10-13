@@ -13,7 +13,7 @@ Any personal information received will only be used to fill your order. We will 
 
 ## Refund Policy
 
-If you are not 100% satisfied with your purchase, you can either return your order for a full refund or exchange it for something else. You can return or exchange your purchase for up to 120 days from the purchase date. Returned or exchanged products must be in the condition you received them and in the original box and/or packaging.
+If you are not 100% satisfied with your purchase, you can either return your order for a full refund or exchange it for something else. You can return or exchange your purchase for up to 60 days from the purchase date. Returned or exchanged products must be in the condition you received them and in the original box and/or packaging.
 
 ## Contact Information
 
