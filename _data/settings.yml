@@ -2,19 +2,19 @@ name: 'Camp Rhino - Port Elizabeth, South Africa'
 logo_image_path: /uploads/logo.png
 logo2_image_path: /uploads/logo2.png
 main_image: /uploads/header-image.jpg
-phone: (618) 544-7131
-email: lgurley87@gmail.com
-facebook: 'https://www.facebook.com/New-Hebron-Baptist-Church-120393777976571/'
+phone: (404) 205-2974
+email: missionarycoffey@gmail.com
+facebook: 'https://www.facebook.com/camprhinoPE'
 twitter:
 youtube:
 instagram:
-address: 6732 N. 1075th St.
+address: P.O. Box 442
 address2:
 mission_board_image: 'http://sitesforchurch.s3.amazonaws.com/vision.jpg'
 project_south_africa_image: /uploads/psa.jpg
-City: Robinson
-State: IL
-Zip: '62454'
+City: Alpharetta
+State: GA
+Zip: '30009'
 lattitude: '38.949608'
 longitude: '-87.744489'
 map_zoom_level: 14
@@ -22,4 +22,4 @@ main_blog_image: /uploads/1.jpg
 main_sermon_image: /uploads/2.jpg
 default_calendar_image: /uploads/hartwell.jpg
 Google_calendar_id: leonhart4@gmail.com
-tinyletter: https://tinyletter.com/pastorryanhayden
+tinyletter: 'https://tinyletter.com/pastorryanhayden'
