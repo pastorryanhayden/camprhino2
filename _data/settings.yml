@@ -15,11 +15,11 @@ project_south_africa_image: /uploads/psa.jpg
 City: Alpharetta
 State: GA
 Zip: '30009'
-lattitude: '38.949608'
-longitude: '-87.744489'
-map_zoom_level: 14
+lattitude:
+longitude:
+map_zoom_level:
 main_blog_image: /uploads/1.jpg
 main_sermon_image: /uploads/2.jpg
 default_calendar_image: /uploads/hartwell.jpg
-Google_calendar_id: leonhart4@gmail.com
-tinyletter: 'https://tinyletter.com/pastorryanhayden'
+Google_calendar_id:
+tinyletter:
