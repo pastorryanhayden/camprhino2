@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: page 
+summary: We won't sell your info and you can return our stuff if it doesn't satisfy.
 title: Privacy and Refund Policies
 ---
 
