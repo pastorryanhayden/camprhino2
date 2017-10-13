@@ -1,8 +1,9 @@
 ---
-layout: page 
+layout: page
 summary: We won't sell your info and you can return our stuff if it doesn't satisfy.
 title: Privacy and Refund Policies
 ---
+
 
 ## Privacy Policy
 
@@ -13,3 +14,7 @@ Any personal information received will only be used to fill your order. We will 
 ## Refund Policy
 
 If you are not 100% satisfied with your purchase, you can either return your order for a full refund or exchange it for something else. You can return or exchange your purchase for up to 120 days from the purchase date. Returned or exchanged products must be in the condition you received them and in the original box and/or packaging.
+
+## Contact Information
+
+If you have any questions, concerns, or problems, please contact us via email at missioncoffey@gmail.com or via mobile at 404-205-2974.
