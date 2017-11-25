@@ -9,7 +9,7 @@ extra_scripts:
 ---
 
 
-[Donate Today](https://www.visionmissions.info/donate)&nbsp;(You can donate by clicking this link which takes you to our mission: Vision Baptist Missions.&nbsp; Choose or write in the amount then assign: Special Project- Camp Rhino- S. Africa or Mark Coffey- South Africa.&nbsp; You will receive a tax receipt for your gift from VBM which is a 501c3 Tax Exempt Mission.)
+[Donate Today](https://www.visionmissions.info/donate)&nbsp;(You can donate by clicking this link which takes you to our mission: Vision Baptist Missions.&nbsp; Choose or write in the amount then assign: Special Project- Camp Rhino- S. Africa or Mark Coffey- South Africa.&nbsp; You will receive a tax receipt for your gift from VBM which is a 501c3 Tax Exempt organization.)
 
 ## We are trying to raise $100,000 in one year so we can buy property for Camp Rhino.
 
@@ -19,4 +19,4 @@ Have you had your life touched by attending Christian summer camp? Have you sent
 
 **This will also provide an amazing short-term missions trip opportunity for American students.** Bible College Students and other ministry minded young people will have the opportunity to travel to Africa for a season, work in South African churches with veteran missionaries, and help in the camp as counselors and camp staff.
 
-[Donate Today](https://www.visionmissions.info/donate)&nbsp;(You can donate by clicking this link which takes you to our mission: Vision Baptist Missions.&nbsp; Choose or write in the amount then assign: Special Project- Camp Rhino- S. Africa or Mark Coffey- South Africa.&nbsp; You will receive a tax receipt for your gift from VBM which is a 501c3 Tax Exempt Mission.)
+[Donate Today](https://www.visionmissions.info/donate)&nbsp;(You can donate by clicking this link which takes you to our mission: Vision Baptist Missions.&nbsp; Choose or write in the amount then assign: Special Project- Camp Rhino- S. Africa or Mark Coffey- South Africa.&nbsp; You will receive a tax receipt for your gift from VBM which is a 501c3 Tax Exempt organization.)
