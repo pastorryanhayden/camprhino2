@@ -9,7 +9,7 @@ extra_scripts:
 ---
 
 
-**{: .fa.fa-paypal} [Donate Today](https://www.visionmissions.info/donate)
+[Donate Today](https://www.visionmissions.info/donate)
 
 ## We are trying to raise $100,000 in one year so we can buy property for Camp Rhino.
 
@@ -19,4 +19,4 @@ Have you had your life touched by attending Christian summer camp? Have you sent
 
 **This will also provide an amazing short-term missions trip opportunity for American students.** Bible College Students and other ministry minded young people will have the opportunity to travel to Africa for a season, work in South African churches with veteran missionaries, and help in the camp as counselors and camp staff.
 
-**{: .fa.fa-paypal} [Donate Today](https://www.visionmissions.info/donate)
+[Donate Today](https://www.visionmissions.info/donate)
