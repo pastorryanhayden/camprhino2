@@ -45,7 +45,7 @@ Highcharts.setOptions(Highcharts.theme);
             plotShadow: false
         },
         title: {
-            text: 'Goal:<br>$100,000',
+            text: 'Goal:<br>$200,000',
             align: 'center',
             verticalAlign: 'middle',
             y: 40
