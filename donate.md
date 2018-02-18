@@ -8,10 +8,9 @@ extra_script_tags:
 extra_scripts:
 ---
 
-
 [Donate Today](https://www.visionmissions.info/donate)&nbsp;(You can donate by clicking this link which takes you to our mission: Vision Baptist Missions.&nbsp; Choose or write in the amount then assign: Special Project- Camp Rhino- S. Africa or Mark Coffey- South Africa.&nbsp; You will receive a tax receipt for your gift from VBM which is a 501c3 Tax Exempt organization.)
 
-## We are trying to raise $100,000 in one year so we can buy property for Camp Rhino.
+## We have met our original goal of $100,000 in one year and are pressing toward our second year goal of $200,000.&nbsp; We are working toward having the initial land purchase made by June 2018.&nbsp;&nbsp;
 
 Have you had your life touched by attending Christian summer camp? Have you sent teenagers to camp and had them come back with their lives changed? Have you have kids get saved at camp?
 
