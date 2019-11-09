@@ -8,7 +8,7 @@ extra_script_tags:
 extra_scripts:
 ---
 
-[Donate Today](https://visionmissions.org/give/)&nbsp;(You can donate by clicking this link which takes you to our mission: Vision Baptist Missions.&nbsp; Choose or write in the amount then assign: Special Project- Camp Rhino- S. Africa or Mark Coffey- South Africa.&nbsp; You will receive a tax receipt for your gift from VBM which is a 501c3 Tax Exempt organization.)
+[Donate Today (You can donate by clicking this link which takes you to our mission:](https://visionmissions.org/give/){: target="_blank"}Vision Baptist Missions.&nbsp; Choose or write in the amount then assign: Special Project- Camp Rhino- S. Africa or Mark Coffey- South Africa.&nbsp; You will receive a tax receipt for your gift from VBM which is a 501c3 Tax Exempt organization.)
 
 You can also Donate Via PayPal by going to this link.&nbsp;[https://www.paypal.me/camprhino](https://www.paypal.me/camprhino)&nbsp;
 
@@ -20,4 +20,4 @@ Have you had your life touched by attending Christian summer camp? Have you sent
 
 **We also provide an amazing short-term missions trip opportunity for American students.** Bible College Students and other ministry minded young people will have the opportunity to travel to Africa for a season, work in South African churches with veteran missionaries, and help in the camp as counselors and camp staff.
 
-[Donate Today](https://visionmissions.org/give/)&nbsp;(You can donate by clicking this link which takes you to our mission: Vision Baptist Missions.&nbsp; Choose or write in the amount then assign: Special Project- Camp Rhino- S. Africa or Mark Coffey- South Africa.&nbsp; You will receive a tax receipt for your gift from VBM which is a 501c3 Tax Exempt organization.)
+[Donate Today (You can donate by clicking this link which takes you to our mission:](https://visionmissions.org/give/){: target="_blank"} Vision Baptist Missions.&nbsp; Choose or write in the amount then assign: Special Project- Camp Rhino- S. Africa or Mark Coffey- South Africa.&nbsp; You will receive a tax receipt for your gift from VBM which is a 501c3 Tax Exempt organization.)
