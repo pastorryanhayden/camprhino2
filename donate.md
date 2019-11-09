@@ -12,7 +12,7 @@ extra_scripts:
 
 You can also Donate Via PayPal by going to this link.&nbsp;[https://www.paypal.me/camprhino](https://www.paypal.me/camprhino){: target="_blank"}&nbsp;
 
-#### We met our original goal of $200,000 for one year. &nbsp; We purchased property and held our first Teen Camp in December 2018.&nbsp; We are now in the process of finishing up Phase \#1 for our camp construction.&nbsp; We still lack $30,000 to finish up housing for the boy dorms, along with the electrical and septic systems.
+#### We met our original goal of $200,000 for one year. &nbsp; We purchased property and held our first Teen Camp in December 2018.&nbsp; We are now in the process of finishing up Phase \#1 for our camp construction.&nbsp; We still lack $35,000 to finish up housing for the boy dorms, along with the electrical and septic systems.
 
 Have you had your life touched by attending Christian summer camp? Have you sent teenagers to camp and had them come back with their lives changed? Have you have kids get saved at camp?
 
