@@ -10,7 +10,7 @@ extra_scripts:
 
 [Donate Today (You can donate by clicking this link which takes you to our mission:](https://visionmissions.org/give/){: target="_blank"}Vision Baptist Missions.&nbsp; Choose or write in the amount then assign: Special Project- Camp Rhino- S. Africa or Mark Coffey- South Africa.&nbsp; You will receive a tax receipt for your gift from VBM which is a 501c3 Tax Exempt organization.)
 
-You can also Donate Via PayPal by going to this link.&nbsp;[https://www.paypal.me/camprhino](https://www.paypal.me/camprhino)&nbsp;
+You can also Donate Via PayPal by going to this link.&nbsp;[https://www.paypal.me/camprhino](https://www.paypal.me/camprhino){: target="_blank"}&nbsp;
 
 ## We met our original goal of $200,000 for one year. &nbsp; We purchased property and held our first Teen Camp in December 2018.&nbsp; We are now in the process of finishing up Phase \#1 for our camp construction.&nbsp; We still lack $20,000 to finish up housing for the boy dorms.
 
